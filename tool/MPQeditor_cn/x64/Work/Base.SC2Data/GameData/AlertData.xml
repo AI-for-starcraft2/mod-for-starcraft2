@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CAlert id="AttackTownAlly_Prot">
+        <Flags index="Combine" value="0"/>
+        <Flags index="Hide" value="1"/>
+        <Flags index="Ping" value="0"/>
+        <Sound value=""/>
+    </CAlert>
+    <CAlert id="AttackTownAlly_Terr">
+        <Flags index="Combine" value="0"/>
+        <Flags index="Hide" value="1"/>
+        <Flags index="Ping" value="0"/>
+        <Sound value=""/>
+    </CAlert>
+    <CAlert id="AttackTownAlly_Zerg">
+        <Flags index="Combine" value="0"/>
+        <Flags index="Hide" value="1"/>
+        <Flags index="Ping" value="0"/>
+        <Sound value=""/>
+    </CAlert>
+    <CAlert id="AttackUnitAlly_Prot">
+        <Flags index="Combine" value="0"/>
+        <Flags index="Hide" value="1"/>
+        <Flags index="Ping" value="0"/>
+        <Sound value=""/>
+    </CAlert>
+    <CAlert id="AttackUnitAlly_Terr">
+        <Flags index="Combine" value="0"/>
+        <Flags index="Hide" value="1"/>
+        <Flags index="Ping" value="0"/>
+        <Sound value=""/>
+    </CAlert>
+    <CAlert id="AttackUnitAlly_Zerg">
+        <Flags index="Combine" value="0"/>
+        <Flags index="Hide" value="1"/>
+        <Flags index="Ping" value="0"/>
+        <Sound value=""/>
+    </CAlert>
+</Catalog>

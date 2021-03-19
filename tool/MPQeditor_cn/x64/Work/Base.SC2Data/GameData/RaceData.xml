@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CRace id="Prot">
+        <StartingUnitArray index="1" Count="1"/>
+        <StartingResource index="Minerals" value="230"/>
+        <StartingResource index="Vespene" value="4294967295"/>
+        <ShowResource index="Vespene" value="0"/>
+        <ShowResource index="Custom" value="1"/>
+    </CRace>
+    <CRace id="Terr">
+        <StartingUnitArray index="1" Count="1"/>
+        <StartingResource index="Minerals" value="230"/>
+        <StartingResource index="Vespene" value="4294967295"/>
+        <ShowResource index="Vespene" value="0"/>
+        <ShowResource index="Custom" value="1"/>
+    </CRace>
+    <CRace id="Zerg">
+        <StartingUnitArray index="1" Count="1"/>
+        <StartingUnitArray index="2" removed="1"/>
+        <ShowResource index="Vespene" value="0"/>
+        <ShowResource index="Custom" value="1"/>
+        <StartingResource index="Minerals" value="230"/>
+        <StartingResource index="Vespene" value="4294967295"/>
+    </CRace>
+</Catalog>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CUpgrade default="1" id="TerranShipArmors">
+        <EffectArray Reference="Unit,Wraith,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Wraith,LifeArmorLevel" Value="1"/>
+        <AffectedUnitArray index="1" value="Wraith"/>
+        <AffectedUnitArray index="2" value="Battlecruiser"/>
+        <AffectedUnitArray index="3" value="Medivac"/>
+        <AffectedUnitArray index="4" value="Raven"/>
+        <AffectedUnitArray index="5" value="VikingAssault"/>
+        <AffectedUnitArray value="VikingFighter"/>
+    </CUpgrade>
+    <CUpgrade default="1" id="TerranVehicleArmors">
+        <EffectArray Reference="Unit,Goliath,LifeArmor" Value="1"/>
+        <EffectArray Reference="Unit,Goliath,LifeArmorLevel" Value="1"/>
+        <AffectedUnitArray index="1" value="Goliath"/>
+        <AffectedUnitArray index="2" value="SiegeTankSieged"/>
+        <AffectedUnitArray index="3" value="SiegeTank"/>
+        <AffectedUnitArray value="Thor"/>
+    </CUpgrade>
+    <CUpgrade default="1" id="ZergMeleeWeapons">
+        <EffectArray Reference="Effect,UltraliskHeadAttackDamage2,Amount" Value="5"/>
+        <EffectArray Reference="Effect,UltraliskCleave2,Amount" Value="3"/>
+        <EffectArray Reference="Weapon,UltraliskHeadAttack2,Level" Value="1"/>
+        <EffectArray Reference="Weapon,Ultralisk2,Level" Value="1"/>
+        <AffectedUnitArray index="1" value="Ultralisk2"/>
+        <AffectedUnitArray index="2" value="BanelingBurrowed"/>
+        <AffectedUnitArray index="3" value="Broodling"/>
+        <AffectedUnitArray index="4" value="Ultralisk"/>
+        <AffectedUnitArray index="5" value="UltraliskBurrowed"/>
+        <AffectedUnitArray index="6" value="Zergling"/>
+        <AffectedUnitArray value="ZerglingBurrowed"/>
+    </CUpgrade>
+    <CUpgrade id="ChitinousPlating">
+        <EffectArray Reference="Unit,Ultralisk2,LifeArmor" Value="2"/>
+        <EffectArray Reference="Unit,Ultralisk2,LifeArmorLevel" Value="2"/>
+        <AffectedUnitArray index="1" value="Ultralisk2"/>
+        <AffectedUnitArray value="UltraliskBurrowed"/>
+    </CUpgrade>
+    <CUpgrade id="IncreaseSpecialCost">
+        <EffectArray Reference="Abil,TerranBuild,InfoArray[Build2].Resource[Minerals]" Value="4500"/>
+        <EffectArray Reference="Abil,ZergBuild,InfoArray[Build10].Resource[Minerals]" Value="4500"/>
+        <EffectArray Reference="Unit,WarpGate,CostResource[Minerals]" Value="4500"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossGroundWeaponsLevel1">
+        <EffectArray index="12" Value="4"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossGroundWeaponsLevel2">
+        <EffectArray index="12" Value="4"/>
+    </CUpgrade>
+    <CUpgrade id="ProtossGroundWeaponsLevel3">
+        <EffectArray index="12" Value="4"/>
+    </CUpgrade>
+    <CUpgrade id="TerranInfantryArmorsLevel1">
+        <EffectArray Operation="Set" Reference="Actor,Firebat,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel1.dds"/>
+        <EffectArray Reference="Unit,Firebat,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Firebat,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="1" value="Firebat"/>
+        <AffectedUnitArray index="2" value="Marauder"/>
+        <AffectedUnitArray index="3" value="Marine"/>
+        <AffectedUnitArray index="4" value="Reaper"/>
+        <AffectedUnitArray value="SCV"/>
+    </CUpgrade>
+    <CUpgrade id="TerranInfantryArmorsLevel2">
+        <EffectArray Operation="Set" Reference="Actor,Firebat,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel2.dds"/>
+        <EffectArray Reference="Unit,Firebat,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Firebat,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="1" value="Firebat"/>
+        <AffectedUnitArray index="2" value="Marauder"/>
+        <AffectedUnitArray index="3" value="Marine"/>
+        <AffectedUnitArray index="4" value="Reaper"/>
+        <AffectedUnitArray value="SCV"/>
+    </CUpgrade>
+    <CUpgrade id="TerranInfantryArmorsLevel3">
+        <EffectArray Operation="Set" Reference="Actor,Firebat,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-infantryarmorlevel3.dds"/>
+        <EffectArray Reference="Unit,Firebat,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Firebat,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="1" value="Firebat"/>
+        <AffectedUnitArray index="2" value="Marauder"/>
+        <AffectedUnitArray index="3" value="Marine"/>
+        <AffectedUnitArray index="4" value="Reaper"/>
+        <AffectedUnitArray value="SCV"/>
+    </CUpgrade>
+    <CUpgrade id="TerranShipArmorsLevel1">
+        <EffectArray Operation="Set" Reference="Actor,Wraith,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-shipplatinglevel1.dds"/>
+        <EffectArray Reference="Unit,Wraith,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Wraith,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="1" value="Wraith"/>
+        <AffectedUnitArray index="2" value="Battlecruiser"/>
+        <AffectedUnitArray index="3" value="Medivac"/>
+        <AffectedUnitArray index="4" value="Raven"/>
+        <AffectedUnitArray index="5" value="VikingAssault"/>
+        <AffectedUnitArray value="VikingFighter"/>
+    </CUpgrade>
+    <CUpgrade id="TerranShipArmorsLevel2">
+        <EffectArray Operation="Set" Reference="Actor,Wraith,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-shipplatinglevel2.dds"/>
+        <EffectArray Reference="Unit,Wraith,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Wraith,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="3" value="Wraith"/>
+        <AffectedUnitArray index="4" value="Raven"/>
+        <AffectedUnitArray index="5" value="VikingAssault"/>
+        <AffectedUnitArray value="VikingFighter"/>
+    </CUpgrade>
+    <CUpgrade id="TerranShipArmorsLevel3">
+        <EffectArray Operation="Set" Reference="Actor,Wraith,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-shipplatinglevel3.dds"/>
+        <EffectArray Reference="Unit,Wraith,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Wraith,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="1" value="Wraith"/>
+        <AffectedUnitArray index="2" value="Battlecruiser"/>
+        <AffectedUnitArray index="3" value="Medivac"/>
+        <AffectedUnitArray index="4" value="Raven"/>
+        <AffectedUnitArray index="5" value="VikingAssault"/>
+        <AffectedUnitArray value="VikingFighter"/>
+    </CUpgrade>
+    <CUpgrade id="TerranVehicleArmorsLevel1">
+        <EffectArray Operation="Set" Reference="Actor,Goliath,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-vehicleplatinglevel1.dds"/>
+        <EffectArray Reference="Unit,Goliath,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Goliath,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="1" value="Goliath"/>
+        <AffectedUnitArray index="2" value="SiegeTankSieged"/>
+        <AffectedUnitArray index="3" value="SiegeTank"/>
+        <AffectedUnitArray value="Thor"/>
+    </CUpgrade>
+    <CUpgrade id="TerranVehicleArmorsLevel2">
+        <EffectArray Operation="Set" Reference="Actor,Goliath,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-vehicleplatinglevel2.dds"/>
+        <EffectArray Reference="Unit,Goliath,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Goliath,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="1" value="Goliath"/>
+        <AffectedUnitArray index="2" value="SiegeTankSieged"/>
+        <AffectedUnitArray index="3" value="SiegeTank"/>
+        <AffectedUnitArray value="Thor"/>
+    </CUpgrade>
+    <CUpgrade id="TerranVehicleArmorsLevel3">
+        <EffectArray Operation="Set" Reference="Actor,Goliath,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-terran-vehicleplatinglevel3.dds"/>
+        <EffectArray Reference="Unit,Goliath,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Goliath,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="1" value="Goliath"/>
+        <AffectedUnitArray index="2" value="SiegeTankSieged"/>
+        <AffectedUnitArray index="3" value="SiegeTank"/>
+        <AffectedUnitArray value="Thor"/>
+    </CUpgrade>
+    <CUpgrade id="ZergGroundArmorsLevel1">
+        <EffectArray Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="1" value="Zergling2"/>
+        <AffectedUnitArray index="2" value="BanelingBurrowed"/>
+        <AffectedUnitArray index="3" value="Broodling"/>
+        <AffectedUnitArray index="4" value="Drone"/>
+        <AffectedUnitArray index="5" value="DroneBurrowed"/>
+        <AffectedUnitArray index="6" value="Hydralisk"/>
+        <AffectedUnitArray index="7" value="HydraliskBurrowed"/>
+        <AffectedUnitArray index="8" value="Infestor"/>
+        <AffectedUnitArray index="9" value="InfestorBurrowed"/>
+        <AffectedUnitArray index="10" value="Queen"/>
+        <AffectedUnitArray index="11" value="QueenBurrowed"/>
+        <AffectedUnitArray index="12" value="Roach"/>
+        <AffectedUnitArray index="13" value="RoachBurrowed"/>
+        <AffectedUnitArray index="14" value="Ultralisk"/>
+        <AffectedUnitArray index="15" value="UltraliskBurrowed"/>
+        <AffectedUnitArray index="16" value="Zergling"/>
+        <AffectedUnitArray value="ZerglingBurrowed"/>
+    </CUpgrade>
+    <CUpgrade id="ZergGroundArmorsLevel2">
+        <EffectArray Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <AffectedUnitArray index="1" value="Zergling2"/>
+        <AffectedUnitArray index="2" value="BanelingBurrowed"/>
+        <AffectedUnitArray index="3" value="Broodling"/>
+        <AffectedUnitArray index="4" value="Drone"/>
+        <AffectedUnitArray index="5" value="DroneBurrowed"/>
+        <AffectedUnitArray index="6" value="Hydralisk"/>
+        <AffectedUnitArray index="7" value="HydraliskBurrowed"/>
+        <AffectedUnitArray index="8" value="Infestor"/>
+        <AffectedUnitArray index="9" value="InfestorBurrowed"/>
+        <AffectedUnitArray index="10" value="Queen"/>
+        <AffectedUnitArray index="11" value="QueenBurrowed"/>
+        <AffectedUnitArray index="12" value="Roach"/>
+        <AffectedUnitArray index="13" value="RoachBurrowed"/>
+        <AffectedUnitArray index="14" value="Ultralisk"/>
+        <AffectedUnitArray index="15" value="UltraliskBurrowed"/>
+        <AffectedUnitArray index="16" value="Zergling"/>
+        <AffectedUnitArray value="ZerglingBurrowed"/>
+    </CUpgrade>
+    <CUpgrade id="ZergGroundArmorsLevel3">
+        <EffectArray Reference="Unit,Zergling2,LifeArmorLevel" Value="1"/>
+        <EffectArray Reference="Unit,Zergling2,LifeArmor" Value="1"/>
+        <EffectArray Operation="Set" Reference="Actor,Zergling2,LifeArmorIcon" Value="Assets\Textures\btn-upgrade-zerg-groundcarapace-level3.dds"/>
+        <AffectedUnitArray index="1" value="Zergling2"/>
+        <AffectedUnitArray index="2" value="BanelingBurrowed"/>
+        <AffectedUnitArray index="3" value="Broodling"/>
+        <AffectedUnitArray index="4" value="Drone"/>
+        <AffectedUnitArray index="5" value="DroneBurrowed"/>
+        <AffectedUnitArray index="6" value="Hydralisk"/>
+        <AffectedUnitArray index="7" value="HydraliskBurrowed"/>
+        <AffectedUnitArray index="8" value="Infestor"/>
+        <AffectedUnitArray index="9" value="InfestorBurrowed"/>
+        <AffectedUnitArray index="10" value="Queen"/>
+        <AffectedUnitArray index="11" value="QueenBurrowed"/>
+        <AffectedUnitArray index="12" value="Roach"/>
+        <AffectedUnitArray index="13" value="RoachBurrowed"/>
+        <AffectedUnitArray index="14" value="Ultralisk"/>
+        <AffectedUnitArray index="15" value="UltraliskBurrowed"/>
+        <AffectedUnitArray index="16" value="Zergling"/>
+        <AffectedUnitArray value="ZerglingBurrowed"/>
+    </CUpgrade>
+</Catalog>

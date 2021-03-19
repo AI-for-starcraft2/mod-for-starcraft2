@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUnit id="BattlecruiserMengskACGluescreenDummy2">
+        <Race value="Terr"/>
+        <Mover value="Ground3"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+    </CUnit>
+    <CUnit id="DragoonACGluescreenDummy2">
+        <Mover value="Ground4"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
+    </CUnit>
+    <CUnit id="EngineeringBay2">
+        <DeathRevealRadius value="3"/>
+        <Facing value="315"/>
+        <Race value="Terr"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="Turnable" value="0"/>
+        <FlagArray index="PreventDefeat" value="1"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="PenaltyRevealed" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TownAlert" value="1"/>
+        <FlagArray index="NoPortraitTalk" value="1"/>
+        <FlagArray index="ArmorDisabledWhileConstructing" value="1"/>
+        <FogVisibility value="Snapshot"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Burrow" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Structure" value="1"/>
+        <Collide index="RoachBurrow" value="1"/>
+        <Collide index="ForceField" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <Attributes index="Structure" value="1"/>
+        <LifeStart value="850"/>
+        <LifeMax value="850"/>
+        <LifeArmor value="1"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranBuildingPlating"/>
+        <Mover value="Ground5"/>
+        <StationaryTurningRate value="719.4726"/>
+        <TurningRate value="719.4726"/>
+        <Sight value="9"/>
+        <CostCategory value="Technology"/>
+        <CostResource index="Minerals" value="125"/>
+        <RepairTime value="35"/>
+        <AttackTargetPriority value="11"/>
+        <AbilArray Link="BuildInProgress2"/>
+        <AbilArray Link="que52"/>
+        <AbilArray Link="EngineeringBayResearch2"/>
+        <BehaviorArray Link="TerranBuildingBurnDown2"/>
+        <CardLayouts>
+            <LayoutButtons Face="TerranInfantryWeaponsLevel12" Type="AbilCmd" AbilCmd="EngineeringBayResearch2,2" Row="0" Column="0"/>
+            <LayoutButtons Face="TerranInfantryWeaponsLevel22" Type="AbilCmd" AbilCmd="EngineeringBayResearch2,3" Row="0" Column="0"/>
+            <LayoutButtons Face="TerranInfantryWeaponsLevel32" Type="AbilCmd" AbilCmd="EngineeringBayResearch2,4" Row="0" Column="0"/>
+            <LayoutButtons Face="Cancel3" Type="AbilCmd" AbilCmd="que52,0" Row="2" Column="4"/>
+            <LayoutButtons Face="CancelBuilding2" Type="AbilCmd" AbilCmd="BuildInProgress2,0" Row="2" Column="4"/>
+            <LayoutButtons Face="Halt2" Type="AbilCmd" AbilCmd="BuildInProgress2,1" Row="2" Column="3"/>
+            <LayoutButtons Face="ResearchNeosteelFrame2" Type="AbilCmd" AbilCmd="EngineeringBayResearch2,5" Row="1" Column="1"/>
+            <LayoutButtons Face="UpgradeBuildingArmorLevel12" Type="AbilCmd" AbilCmd="EngineeringBayResearch2,1" Row="1" Column="2"/>
+            <LayoutButtons Face="ResearchHiSecAutoTracking2" Type="AbilCmd" AbilCmd="EngineeringBayResearch2,0" Row="1" Column="0"/>
+            <LayoutButtons Face="TerranInfantryArmorLevel12" Type="AbilCmd" AbilCmd="EngineeringBayResearch2,6" Row="0" Column="1"/>
+            <LayoutButtons Face="TerranInfantryArmorLevel22" Type="AbilCmd" AbilCmd="EngineeringBayResearch2,7" Row="0" Column="1"/>
+            <LayoutButtons Face="TerranInfantryArmorLevel32" Type="AbilCmd" AbilCmd="EngineeringBayResearch2,8" Row="0" Column="1"/>
+            <LayoutButtons Face="SelectBuilder2" Type="SelectBuilder" Row="1" Column="3"/>
+        </CardLayouts>
+        <Radius value="1.25"/>
+        <SeparationRadius value="1.25"/>
+        <Footprint value="Footprint3x3Contour2"/>
+        <PlacementFootprint value="Footprint3x32"/>
+        <ScoreMake value="125"/>
+        <ScoreKill value="125"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="3"/>
+        <MinimapRadius value="1.75"/>
+        <EditorCategories value="ObjectType:Structure,ObjectFamily:Melee"/>
+        <GlossaryPriority value="256"/>
+        <HotkeyCategory value="Unit/Category/TerranUnits"/>
+    </CUnit>
+    <CUnit id="Raven">
+        <CostResource index="Minerals" value="275"/>
+        <CostResource index="Vespene" value="0"/>
+    </CUnit>
+    <CUnit id="SCV">
+        <CardLayouts index="1">
+            <LayoutButtons Face="Raven" Type="AbilCmd" AbilCmd="TerranBuild,Build19" Row="0" Column="3"/>
+            <LayoutButtons Face="UnknownButton" Type="AbilCmd" AbilCmd="TerranBuild,Build20" Row="0" Column="4"/>
+        </CardLayouts>
+    </CUnit>
+    <CUnit id="Thor2">
+        <DeathRevealRadius value="3"/>
+        <Facing value="135"/>
+        <Race value="Terr"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TurnBeforeMove" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <Attributes index="Massive" value="1"/>
+        <LifeStart value="400"/>
+        <LifeMax value="400"/>
+        <LifeArmor value="1"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranVehiclePlating"/>
+        <Speed value="1.875"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <TurningRate value="360"/>
+        <Sight value="11"/>
+        <Food value="-6"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="300"/>
+        <CostResource index="Vespene" value="200"/>
+        <RepairTime value="60"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="160"/>
+        <AbilArray Link="stop"/>
+        <AbilArray Link="attack"/>
+        <AbilArray Link="move"/>
+        <AbilArray Link="ThorAPMode"/>
+        <WeaponArray Link="JavelinMissileLaunchers"/>
+        <WeaponArray Link="ThorsHammer"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
+            <LayoutButtons Face="ArmorpiercingMode" Type="AbilCmd" AbilCmd="ThorAPMode,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="ThorAPMode,Cancel" Row="2" Column="4"/>
+        </CardLayouts>
+        <Radius value="1"/>
+        <SeparationRadius value="1"/>
+        <InnerRadius value="1"/>
+        <CargoSize value="8"/>
+        <ScoreMake value="500"/>
+        <ScoreKill value="500"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="10"/>
+        <MinimapRadius value="1"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <TacticalAIThink value="AIThinkThor"/>
+        <TechAliasArray value="Alias_Thor"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="140"/>
+        <GlossaryStrongArray value="Marine"/>
+        <GlossaryStrongArray value="Mutalisk"/>
+        <GlossaryStrongArray value="Stalker"/>
+        <GlossaryWeakArray value="Marauder"/>
+        <GlossaryWeakArray value="Zergling"/>
+        <GlossaryWeakArray value="Immortal"/>
+        <HotkeyCategory value="Unit/Category/TerranUnits"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="10"/>
+            <ChanceArray index="Idle" value="90"/>
+        </Fidget>
+        <TauntDuration index="Cheer" value="5"/>
+        <TauntDuration index="Dance" value="5"/>
+    </CUnit>
+    <CUnit id="ThorAP2">
+        <Name value="Unit/Name/Thor"/>
+        <Description value="Button/Tooltip/Thor"/>
+        <DeathRevealRadius value="3"/>
+        <Facing value="135"/>
+        <Race value="Terr"/>
+        <Mob value="Multiplayer"/>
+        <FlagArray index="PreventDestroy" value="1"/>
+        <FlagArray index="UseLineOfSight" value="1"/>
+        <FlagArray index="TurnBeforeMove" value="1"/>
+        <FlagArray index="ArmySelect" value="1"/>
+        <PlaneArray index="Ground" value="1"/>
+        <Collide index="Ground" value="1"/>
+        <Collide index="Small" value="1"/>
+        <Attributes index="Armored" value="1"/>
+        <Attributes index="Mechanical" value="1"/>
+        <Attributes index="Massive" value="1"/>
+        <LifeStart value="400"/>
+        <LifeMax value="400"/>
+        <LifeArmor value="1"/>
+        <LifeArmorName value="Unit/LifeArmorName/TerranVehiclePlating"/>
+        <Speed value="1.875"/>
+        <Acceleration value="1000"/>
+        <LateralAcceleration value="46.0625"/>
+        <TurningRate value="360"/>
+        <Sight value="11"/>
+        <Food value="-6"/>
+        <CostCategory value="Army"/>
+        <CostResource index="Minerals" value="300"/>
+        <CostResource index="Vespene" value="200"/>
+        <RepairTime value="60"/>
+        <AttackTargetPriority value="20"/>
+        <DamageDealtXP value="1"/>
+        <DamageTakenXP value="1"/>
+        <KillXP value="160"/>
+        <AbilArray Link="stop2"/>
+        <AbilArray Link="attack2"/>
+        <AbilArray Link="move2"/>
+        <AbilArray Link="ThorNormalMode2"/>
+        <WeaponArray Link="ThorsHammer"/>
+        <WeaponArray Link="LanceMissileLaunchers"/>
+        <CardLayouts>
+            <LayoutButtons Face="Move2" Type="AbilCmd" AbilCmd="move2,0" Row="0" Column="0"/>
+            <LayoutButtons Face="Stop2" Type="AbilCmd" AbilCmd="stop2,0" Row="0" Column="1"/>
+            <LayoutButtons Face="MoveHoldPosition2" Type="AbilCmd" AbilCmd="move2,2" Row="0" Column="2"/>
+            <LayoutButtons Face="Attack2" Type="AbilCmd" AbilCmd="attack2,0" Row="0" Column="4"/>
+            <LayoutButtons Face="MovePatrol2" Type="AbilCmd" AbilCmd="move2,1" Row="0" Column="3"/>
+            <LayoutButtons Face="ExplosiveMode2" Type="AbilCmd" AbilCmd="ThorNormalMode2,0" Row="2" Column="1"/>
+            <LayoutButtons Face="Cancel2" Type="AbilCmd" AbilCmd="ThorNormalMode2,1" Row="2" Column="4"/>
+        </CardLayouts>
+        <Radius value="1"/>
+        <SeparationRadius value="1"/>
+        <InnerRadius value="1"/>
+        <CargoSize value="8"/>
+        <ScoreMake value="500"/>
+        <ScoreKill value="500"/>
+        <ScoreResult value="BuildOrder"/>
+        <SubgroupPriority value="10"/>
+        <MinimapRadius value="1"/>
+        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>
+        <TacticalAIThink value="AIThinkThor"/>
+        <LeaderAlias value="Thor"/>
+        <HotkeyAlias value="Thor"/>
+        <SelectAlias value="Thor"/>
+        <SubgroupAlias value="Thor"/>
+        <TechAliasArray value="Alias_Thor"/>
+        <GlossaryCategory value="Unit/Category/TerranUnits"/>
+        <GlossaryPriority value="141"/>
+        <GlossaryStrongArray value="Marine"/>
+        <GlossaryStrongArray value="Mutalisk"/>
+        <GlossaryStrongArray value="Stalker"/>
+        <GlossaryWeakArray value="Marauder"/>
+        <GlossaryWeakArray value="Zergling"/>
+        <GlossaryWeakArray value="Immortal"/>
+        <HotkeyCategory value="Unit/Category/TerranUnits"/>
+        <Fidget>
+            <ChanceArray index="Anim" value="10"/>
+            <ChanceArray index="Idle" value="90"/>
+        </Fidget>
+        <TauntDuration index="Cheer" value="5"/>
+        <TauntDuration index="Dance" value="5"/>
+    </CUnit>
+</Catalog>
