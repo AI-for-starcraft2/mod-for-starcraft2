@@ -2,6 +2,7 @@
 因为图像识别技术不成熟，所以aphstar使用暴雪后台提供的接口来进行识别和检测单位，并不是真正意义像玩家一样操控单位。
 ## aphstar原理
 https://github.com/zhoubolei/introRL/blob/master/lecture_alphastar.pdf
+
 很美，不是吗。我原本以为深度学习缺点很多，令人失望的聊天机器人效果，但是这个框架给我看到了希望。
 
 也许未来的游戏ai、聊天机器人、智能机器人可以使用非常庞大的深度强化学习框架来极限接近强人工智能，复杂的系统宏观上体现了规则性，神经网络可以很好的处理细节。
@@ -26,8 +27,11 @@ aphstar已经能击败人类职业选手了
 现在看来go游戏也不是个完美公平游戏，被电脑找到了其中的破解规律。
 # sc项目
 python的星际争霸2接口，可以控制游戏中单位和识别敌方单位。
+
 https://github.com/BurnySc2/python-sc2
+
 https://github.com/Dentosal/python-sc2
+
 # pysc2项目
 deepmind公司用于开发aphstar的框架
 
@@ -43,7 +47,6 @@ deepmind公司用于开发aphstar的框架
 通过自动化测试框架或者pygame等包是否可以完成一些自定义地图的操控
 **待研究**
 - [x] 无法超过2个人工智能bot
-
 - [x] 自定义地图可以加载
 已经测试完非常多自定义地图，确定只要游戏刚开始没放入未在unit_typeid.py中注册的自定义单位，便可以加载。
 - [x] 自定义单位可以使用
