@@ -2,9 +2,11 @@
 # 玩家社区
 ## 地精研究院
 https://bbs.islga.org/
+
 老牌黑帮社区了，嘻嘻
 ## 艾尔星盟
 https://wp.aiurcovenant.net/
+
 缺乏维修，梦罗快上
 # 精品mod
 ## 沙漠风暴S3,S4
@@ -25,6 +27,7 @@ MPQEditor.exe工具可以打开地图
 动视暴雪提供API接口给研究者使用后台读取游戏中单位和控制其中的单位。通过API接口玩家可以制作人工智能AI在机器人天梯，远程连接进行对战。
 
 详情参考guide for AI
+
 https://github.com/fengmao31/mod-for-starcraft2/tree/main/guide%20for%20AI
 # 地图数据修改
 ## 地图编辑器

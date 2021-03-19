@@ -1,7 +1,22 @@
 # aphstar
 因为图像识别技术不成熟，所以aphstar使用暴雪后台提供的接口来进行识别和检测单位，并不是真正意义像玩家一样操控单位。
+## aphstar原理
+https://github.com/zhoubolei/introRL/blob/master/lecture_alphastar.pdf
+很美，不是吗。我原本以为深度学习缺点很多，令人失望的聊天机器人效果，但是这个框架给我看到了希望。
+
+也许未来的游戏ai、聊天机器人、智能机器人可以使用非常庞大的深度强化学习框架来极限接近强人工智能，复杂的系统宏观上体现了规则性，神经网络可以很好的处理细节。
+
+（我在某篇说的很多强化学习论文无法抽象和处理细节规则是另一个角度，RTS游戏实际上规则还是单一简单的胜负博弈，没有很多细小规则和操作的detail。）
+
+受限于时代，我们没有更好的选择。量子计算机，多进制计算机，生物计算机等一系列基础科学因为和平与福利，一直无法突破。
+
+但愿我们在上个时代能做出下个时代的作品。就像历史上的诸葛连弩，手摇加特林，电子管步话机。提前历史做出东西，开历史的倒车都是充满魅力的事情。
+
+当人们团结一心得时候，是可以超越时代的。机巧的搭建规律，撬动命运的车轮。
+
 # 玩家社区观点
 aphstar已经能击败人类职业选手了
+
 但是老玩家认为aphsta并不公平。他们认为aphsta可以通过后台迅速选取建筑，没有任何延迟，而且可以迅速攻击聚团的飞龙中残血的一个，达到优势，这很不公平。
 
 我个人认为starcraft2是个非常不公平的游戏。从1代到2代是个失败的过度。因为打工的印度程序员不是当初那些用爱发电的程序员。这也是现在游戏水准换汤不换药的原因。
@@ -11,13 +26,22 @@ aphstar已经能击败人类职业选手了
 现在看来go游戏也不是个完美公平游戏，被电脑找到了其中的破解规律。
 # sc项目
 python的星际争霸2接口，可以控制游戏中单位和识别敌方单位。
+https://github.com/BurnySc2/python-sc2
+https://github.com/Dentosal/python-sc2
 # pysc2项目
 deepmind公司用于开发aphstar的框架
+
 事实上与我们普通研究者和玩家没什么关联，因为云服务器来训练它成本高昂，而且由于复现困难，导致效果并不好。另一方面aphstar受限于apm限制，而一般starcraft2 bot天梯上面不限制apm。
 
 个人认为aphstar不一定能击败精心设计的脚本bot和sc2项目的人工智能bot。因为我们的人工智能ai问题还有很多。很多发表的强化学习ai感觉甚至打不过脚本。这是因为小的细节规则难以抽象出来，更难以在框架中考虑并设计到。
 # 已经确定的事情
-
+- [x] bot无法加入游戏大厅
+- [ ] 地图脚本和外部程序操纵xml存档文件输出数据
+通过地图脚本和外部程序反复读取xml存档文件，应该能实时输出数据，但是没有尝试过。
+**待研究**
+- [ ] 控制鼠标键盘操作屏幕模拟玩自定义地图游戏
+通过自动化测试框架或者pygame等包是否可以完成一些自定义地图的操控
+**待研究**
 - [x] 无法超过2个人工智能bot
 
 - [x] 自定义地图可以加载
@@ -26,9 +50,43 @@ deepmind公司用于开发aphstar的框架
 **PS 韩国人正在做自定义种族的人工智能ai**
 - [ ] 自定义建筑不可以
 **期待有人完成研究**
+
 # 推荐的研究
+## 思路1 训练可以合作的人工智能agent
+Api接口设计用于1vs1标准竞技对战。所以仅仅支持2个外部agent，实际上我们可以试图训练2个agent配合完成任务地图或者多人地图同时对抗多个传统电脑。或者1个人类玩家1个agent相互配合完成任务地图或者多人地图同时对抗多个传统电脑。还没有设计实现思路，基础知识薄弱。因为社区现在还在使用api来做1vs1标准对战，不像我非主流的使用api来通过api设计漏洞操作，应该有研究价值。
+## 思路2 训练高级-低级指挥agent
+玩家使用外部语音操作宏观指挥，api操作单位进行各个建造和进攻防御行为，玩家只需要命令api的agent以何种模式发展，何种模式进攻就可以了。
+完成玩家和agent的合作性人工智能。
+如果agent能够使用pysc2那种微操作就更好了。这样玩家进行宏观判断，agent负责具体战斗，但是pysc2未了解以及训练成本极其搞。
+## 思路3 自适应agent
+游戏中电脑的最终目标是陪玩家娱乐，所以agent需要具有自适应调节难度的能力，应该可以根据游戏的过程中的交换比和玩家以往战绩可以自适应调整自身难度，以适应玩家水平和提高玩家游戏水平。
 
 # 研究社区
+## wiki
+https://aiarena.net/
 
+https://wiki.sc2ai.net/Main_Page
 
+https://aiarena.net/wiki/bot-development/getting-started/#wiki-toc-maps
+## Github
+https://github.com/BurnySc2/python-sc2
+
+https://github.com/Dentosal/python-sc2
+
+https://github.com/Blizzard/s2client-proto#downloads
+## discord
+https://discordapp.com/invite/zXHU4wM
+https://discord.gg/zwpJzBQN
 # 相关项目
+## starcraft1
+### Brood War API Team
+https://www.starcraftai.com/wiki/Main_Page
+
+https://github.com/bwapi
+
+https://bwapi.github.io/
+### 星际争霸1比赛
+https://sscaitournament.com/
+# 其他
+## 示例bot
+https://github.com/davechurchill/commandcenter
