@@ -44,7 +44,9 @@
 
 ### 运行效果
 
-<video src="《星际争霸II》 2021-03-21 01-16-18.mp4"></video>
+https://m.bilibili.com/space/22443768
+
+<video src="QQ视频20210321211226"></video>
 
 ### API设置（高级）
 先休息，作业太多了
