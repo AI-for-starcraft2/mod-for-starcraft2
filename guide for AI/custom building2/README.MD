@@ -13,6 +13,11 @@ https://m.bilibili.com/space/22443768
 或者下载目录下视频文件
 ## 问题
 无法建造兵营补给站这些非自定义而是修改后的建筑，虽然可以建造自定义单位。这是一件非常奇特的事情。
+
+
+
+
+
 ## API设置（高级）
 先休息，作业太多了
 
@@ -33,6 +38,16 @@ API无法建造兵营、补给站这些非自定义而是修改后的建筑。
 相同代码在AbyssalReefLE2上面依然有效。
 
 ![QQ截图20210326165105](QQ截图20210326165105.png)
+
+它的科技馆名称并没有对应button按钮名称，也能使用UnitTypeId.SCIENCEFACILITY激活SCV建造能力TERRANBUILD_MERCCOMPOUND = 337。
+
+然而普通更换按钮和能力会跳出能力错误AssertionError: C: None，用generate_id_constants_from_stableid.py文件重新生成才可以。
+
+之前custom1中ABC建筑仅仅更改unit_typeid.py和ability_id.py文件即可。
+
+对比文件我们发现ability_id.py没有变化，但是unit_typeid.py变化如下。
+
+![QQ截图20210326232559](QQ截图20210326232559.png)
 
 ## 修改兵营可用性
 
