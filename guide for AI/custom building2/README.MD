@@ -10,7 +10,7 @@
 
 
 
-https://m.bilibili.com/space/22443768
+https://www.bilibili.com/video/BV1eX4y137A7
 
 
 
@@ -238,6 +238,10 @@ API建造了科技馆(医疗兵)。按钮是补给站。
 ![QQ截图20210328012150](QQ截图20210328012150.png)
 
 ![QQ截图20210328012208](QQ截图20210328012208.png)
+
+## 运行效果
+
+https://www.bilibili.com/video/BV1954y1877w
 
 
 
