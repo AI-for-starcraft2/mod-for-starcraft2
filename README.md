@@ -40,8 +40,13 @@ https://github.com/fengmao31/mod-for-starcraft2/tree/main/guide%20for%20AI
 
 xml只能导出变化的xml文件，无法导出所有xml文件.
 ## xml文件
-使用MPQEditor.exe工具导出xml进行修改，可以编程小工具来批量化处理。
+使用MPQEditor.exe工具导出xml文件进行修改，可以编程小工具来批量化处理。
+## script文件
+使用MPQEditor.exe工具导出Mapscript.galaxy文件进行修改，可以使用编程IDE修改。
 
+https://s2editor-guides.readthedocs.io/New_Tutorials/03_Trigger_Editor/058_GalaxyScript/
+
+https://github.com/Talv/vscode-sc2-galaxy
 # 地图版权
 由于魔兽争霸3RPG地图dota和暴雪的官司胜诉，所以动视暴雪有了前车之鉴。编辑器完成的地图版权归动视暴雪所有。
 
