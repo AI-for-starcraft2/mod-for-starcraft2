@@ -107,6 +107,8 @@ https://discordapp.com/invite/zXHU4wM
 https://discord.gg/zwpJzBQN
 
 # 相关项目
+星际争霸AI研究相关工具资料整理
+https://zhuanlan.zhihu.com/p/33897686
 ## starcraft1
 ### Brood War API Team
 https://www.starcraftai.com/wiki/Main_Page
